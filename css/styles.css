@@ -211,22 +211,25 @@ body {
 
 .footer {}
 
-.container {}
-
 .footer-logo {}
 
-.logo {}
-
-.link {}
-
-.footer-address {}
+.footer-address {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	/* color: var(--white-color); */
+}
 
 .connection-nav-footer {}
 
-.list {}
-
 .connection-item-footer {}
 
-.footer-link {}
-
-.main-link {}
+.footer-link {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	/* color: var(--footer-link-color); */
+}
