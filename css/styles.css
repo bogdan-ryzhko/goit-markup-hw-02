@@ -39,14 +39,14 @@ body {
 	cursor: pointer;
 }
 
-/*----------------------------- Шапка----------------------------- */
-.header {}
-
 .container {
 	max-width: 1230px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
+
+/* ----------------------------- Шапка----------------------------- */
+.header {}
 
 .header-container {}
 
@@ -109,4 +109,53 @@ body {
 .main-link:hover,
 .main-link:focus {
 	color: var(--brand-color);
+}
+
+/* ----------------------------- Герой ----------------------------- */
+
+.hero {}
+
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	/* color: var(--white-color); */
+}
+
+.hero-btn {
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	/* color: var(--white-color); */
+}
+
+.benefits {}
+
+.benefits-title {
+	font-size: 0;
+	opacity: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benefits-item-title {
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.benefits-item-text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--descr-color);
 }
