@@ -159,3 +159,22 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--descr-color);
 }
+
+/* ----------------------------- Чим ми займаємось ----------------------------- */
+
+.about {}
+
+.about-title {}
+
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+}
+
+.about-list {}
+
+.about-item {}
+
+.about-img {}
