@@ -19,7 +19,6 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
 	color: var(--main-color);
 	font-size: 16px;
 	background-color: var(--white-color);
@@ -49,10 +48,10 @@ body {
 /* ----------------------------- Шапка----------------------------- */
 
 .logo {
-	color: var(--black-color);
 	font-family: 'Raleway';
-	font-style: normal;
 	font-weight: 700;
+	color: var(--black-color);
+	font-style: normal;
 	font-size: 26px;
 	line-height: 1.29;
 	letter-spacing: 0.03em;
@@ -145,6 +144,7 @@ body {
 }
 
 .benefits-item-title {
+	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
@@ -152,7 +152,6 @@ body {
 }
 
 .benefits-item-text {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -180,7 +179,6 @@ body {
 }
 
 .team-item-descr {
-	font-weight: 400;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 	color: var(--descr-color);
@@ -248,7 +246,6 @@ body {
 
 .footer-address {
 	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
